@@ -1,0 +1,7 @@
+---
+applications:
+- name: bupa-mock-odata
+  memory: 64M
+  buildpacks:
+  - nodejs_buildpack
+  random-route: true
